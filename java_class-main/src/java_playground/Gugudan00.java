@@ -2,7 +2,7 @@ package java_playground;
 
 import java.util.Scanner;
 
-public class Gugudan {
+public class Gugudan00 {
 
 	public static void main(String[] args) {
 		
@@ -26,13 +26,11 @@ public class Gugudan {
 //		...
 		
 		//5단
-		/*(scanner입력 귀찮아서 잠깐 주석처리)
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
 		System.out.println("5단출력 프로그램(5만입력하기)");
 		System.out.println(number * 1);
 		System.out.println(number * 2);
-		*/
 //		...
 		
 		//6단
