@@ -1,4 +1,4 @@
-package java_playground;
+package java_playground.Gugudan;
 
 public class Gugudan02 {
 
