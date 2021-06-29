@@ -8,14 +8,20 @@ public class Prompt {
 	
 	public void runPrompt() {
 		Scanner scanner = new Scanner(System.in);
-		String prompt = "cal> ";
 		Calendar00 cal = new Calendar00();
 		
 		int month = 1;
+		int year = 2021;
 		
 		while (true) {
+			System.out.println("년도를 입력하세요");
+			System.out.println("YEAR> ");
+			year = scanner.nextInt();
+			if (year == -1) {
+				break;
+			}
 			System.out.println("달을 입력하세요");
-			System.out.println(prompt);
+			System.out.println("MONTH> ");
 			month = scanner.nextInt();
 			if (month == -1) {
 				break;
@@ -23,7 +29,7 @@ public class Prompt {
 			if (month > 12) {
 				continue;
 			}
-			cal.printCalendar(2017, month);
+			cal.printCalendar(year, month);
 		}
 		System.out.println("입력종료");
 		scanner.close();
