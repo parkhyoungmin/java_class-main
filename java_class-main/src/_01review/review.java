@@ -1,19 +1,19 @@
 package _01review;
 
+import java.util.Scanner;
+
 public class review {
 
 	public static void main(String[] args) {
-		System.out.println("Hello\nworld!");
-//		Hello
-//		world!
-		System.out.println("안\t녕");
-//		안	녕
-		System.out.println("한\\영");
-//		한\영
-		System.out.println("\"큰따옴표\"");
-//		"큰따옴표"
-		System.out.println("\'작은따옴표\'");
-//		'작은따옴표'
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("아무거나 입력해보세요 > ");
+		String word = sc.next();
+		
+		System.out.println(word);
+		
+		char a = word.charAt(0);
+		System.out.println(a);
 	}
 	
 }

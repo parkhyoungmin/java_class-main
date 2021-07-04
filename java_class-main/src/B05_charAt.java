@@ -26,9 +26,10 @@ public class B05_charAt {
 		System.out.println(word.charAt(1));
 		System.out.println(word.charAt(2));
 		
-		if (word.length() >= 5) 
+		if (word.length() >= 5) {
+			System.out.println(word.length());
 			System.out.println(word.charAt(4));
-		else 
+		} else 
 			System.out.println("해당 단어의 길이가 5보다 짧습니다.");
 	}
 	
