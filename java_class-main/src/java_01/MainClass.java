@@ -1,4 +1,4 @@
-package java_renew_inflearn;
+package java_01;
 
 public class MainClass {
 

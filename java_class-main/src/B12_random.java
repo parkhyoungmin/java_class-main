@@ -50,11 +50,13 @@ public class B12_random {
 			} else {
 				// 현재 저장된 값보다 더 크면 max값을 갱신
 				// max = max < num ? num : max;
-				max = Math.max(max, num);				
+				max = Math.max(max, num);
+				System.out.println(max);
 				
 				// 현재 저장된 값보다 더 작으면 min값을 갱신
 				// min = min > num ? num : min;
 				min = Math.min(min, num);
+				System.out.println(min);
 			}		
 		}
 		
