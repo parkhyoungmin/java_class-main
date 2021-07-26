@@ -1,6 +1,6 @@
 package _01review;
 
-public class reverseStar {
+public class ReverseStar {
 
 	public static void main(String[] args) {
 //		1. "*" 출력(역피라미드로 출력)

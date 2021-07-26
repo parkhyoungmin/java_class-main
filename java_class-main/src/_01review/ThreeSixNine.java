@@ -2,7 +2,7 @@ package _01review;
 
 import java.util.Scanner;
 
-public class threeSixNine {
+public class ThreeSixNine {
 
 	public static void main(String[] args) {
 		/*
