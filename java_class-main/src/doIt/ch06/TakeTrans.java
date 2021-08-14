@@ -15,7 +15,7 @@ public class TakeTrans {
 		Subway subwayGreen = new Subway(2);
 		tomas.takeSubway(subwayGreen);
 		tomas.showInfo();
-		subwayGreen.showInfo();
+		subwayGreen.showInfo(); 
 
 	}
 
